@@ -29,3 +29,12 @@ Color de marca: #8cf02e (sacado del logo). Fuentes: Geist + Instrument Serif.
 - Textos recortados; se sacaron "Tres pilares" y la lista de features (repetían lo del software).
 - Cinta: 14 marcas (suma Peugeot y Citroën — emblemas de Simple Icons —, Grupo Le Parc, Multicars, Rodz), velocidad ~110 px/s.
 - Rodz Cars: sin logo (no se encontró online) → muestra el nombre. Pedir el logo a Octa/Marcelo.
+
+## Dónde está publicada (desde 2026-10-14)
+- URL provisoria: https://aicars-web.snznvk.easypanel.host
+- Easypanel: proyecto `aicars`, servicio `web` (nginx, Dockerfile + nginx.conf de esta carpeta).
+- Código: GitHub público octaibanez/aicars-web (rama main). Publicar cambio = `git push` + deploy del servicio en Easypanel.
+- Dominio propio: registro A → 13.140.40.56 y sumar el dominio al servicio en Easypanel.
+
+## v4 (2026-10-14)
+Posicionamiento "a medida" (no SaaS): sin maqueta de software, sección "Si lo imaginás, lo construimos", tablero con selector de colores de marca, conversaciones con la IA como vendedora (3 escenarios), términos según referencias-copy.md.
